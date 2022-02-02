@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100&display=swap" rel="stylesheet">
+    
+    <title>Cpend</title>
+</head>
+<body>
+<div class="contenedor borde-redondo">
+        <div class="contenedor__texto borde-redondo ">
+            <h1>Página en Construcción</h1>
+            <h3>Para consultas o contrataciones contactese a traves de los siguientes medios.</h3>
+            <section>
+                <p>Contacto@cpend.com</p>
+                <form class="formulario" action="enviar.php" method="post">
+                    <fieldset>
+                        <legend>O rellene todos los campos y envie un mensaje directo</legend>
+                            <div class= "caja-campos">
+                                <div class="campo">
+                                    <label>Nombre</label>
+                                    <input class="input-text" name="nombre" id="nombre" type="text" placeholder="Tu Nombre"/>
+                                </div>
+                                <div class="campo">
+                                    <label>Teléfono</label>
+                                    <input class="input-text" name="tel" id="tel"  type="tel" placeholder="Tu telefono"/>
+                                </div>
+                                <div class="campo">
+                                    <label>Correo</label>
+                                    <input class="input-text" name="email" id="email" type="email" placeholder="Email">
+                                </div>
+                                <div class="campo">
+                                    <label>Mensaje</label>
+                                    <textarea class="input-text" name="mensaje" id="mensaje"></textarea>
+                                </div>
+                            </div>
+                            <input class="boton w-100" type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </section>                
+        </div>
+    </div>
+
+    <footer class="barra-final">
+        <div>
+            <p>Todos los derechos reservados, Cpend.cl</p>
+        </div>
+    </footer>
+</body>
+</html>
